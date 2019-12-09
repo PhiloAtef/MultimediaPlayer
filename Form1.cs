@@ -24,7 +24,7 @@ namespace MultiMediaPlayer
            {
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-
+                    DoubleLinkedList<MediaFile> files = new DoubleLinkedList<MediaFile>();
                 }
             }
         }
