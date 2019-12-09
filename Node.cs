@@ -18,13 +18,13 @@ namespace MultiMediaPlayer
             set { NodeData = value; }
         }
 
-        public Node<T> _Next 
+        public Node<T> next 
         {
             get { return Next; }
             set { Next = value; }
         }
 
-        public Node<T> _Prev
+        public Node<T> prev
         {
             get { return Prev; }
             set { Prev = value; }
